@@ -1,0 +1,15 @@
+{
+  "name": "nAMS",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run ./dist/index.js"
+  },
+  "dependencies": {
+    "@hono/swagger-ui": "^0.4.1",
+    "@hono/zod-openapi": "^0.16.0",
+    "hono": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
